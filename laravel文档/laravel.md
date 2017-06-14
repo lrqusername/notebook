@@ -73,4 +73,11 @@
 	<input type="hidden" name="_token"         value="{{csrf_token()}}"/>
 
 	xiugai 
-## 记录
+## 数据库一对多关系
+	function hasManyImg()
+	hasmany('表'::class , '对应的id');
+	belong('表'::class  ,  'id');
+	调用方法 with('hasManyImg');
+
+## 编辑器使用ueditor扩展包
+## 
